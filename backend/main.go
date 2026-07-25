@@ -17,6 +17,7 @@ func main() {
 	log.Println("✅ Đã kết nối PostgreSQL")
 
 	os.MkdirAll("uploads", 0755)
+	os.Chmod("uploads", 0755)
 
 	r := gin.Default()
 	r.MaxMultipartMemory = 8 << 20
