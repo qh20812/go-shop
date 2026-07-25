@@ -74,7 +74,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>🛒 Go Shop Quản lý sản phẩm</h1
+      <h1>🛒 Go Shop Quản lý sản phẩm</h1>
 
       <form className="card" onSubmit={handleSubmit}>
         <h2>{editingId ? 'Sửa sản phẩm' : 'Thêm sản phẩm'}</h2>
